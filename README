@@ -1,4 +1,43 @@
 Intro to gilbertgrapesmom
 -------------------------
 
-gilbertgrapesmom is a Twisted-based Python IRC bot.
+gilbertgrapesmom is a Twisted-based Python 2.7+ 
+IRC bot.
+
+It is composed of plugins, which add functionality
+to the bot. The bot looks for the presence of
+commands or other triggers for action in the 
+messages that it sees, i.e., either channel or 
+private. If one is found, then the bot replies
+accordingly.
+
+It requires the following third party libraries:
+
+  twisted         (for the asynch event-driven IRC awareness)
+
+Plugins require their own libraries, which are specified in the
+plugins directory's README.
+
+Directory Structure
+-------------------
+
+The directory structure of the bot's files is the
+following:
+
+  config      (Various configuration files)
+
+   README     (More detailed information on what goes in
+               ggm.conf)
+
+   ggm.conf   (Config file specifying various features of
+               the main bot and its plugins)
+
+   botconfigparser.py   (Python script to parse ggm.conf)
+
+  logs        (Place to store any log files)
+
+  plugins     (Directory with scripts for implementing plugins)
+
+    README    (Additional information on the structure of plugins,
+               e.g., which are included, how to write new ones, etc.)
+    

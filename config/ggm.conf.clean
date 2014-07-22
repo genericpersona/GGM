@@ -1,0 +1,66 @@
+# Configuration file for the gilbertgrapesmom bot
+
+# Required main section
+[main]
+server: chat.freenode.net
+port: 6697
+channels: genericpersona
+nickname: gilbertgrapesmom
+username: ggm
+realname: Bonnie
+password: 
+lineRate: 2
+log: yes
+logfile: logs/ggm.log
+prefix_char: ?
+
+# Optional Plugins
+
+
+[areacode]
+module: Lookup
+callback: Lookup
+
+[btcavg]
+module: BitcoinAverage
+callback: BitcoinAverage
+default_currency: USD
+
+#[forex]
+#module: Lookup
+#callback: Lookup
+
+[Lookup]
+module: Lookup
+callback: Lookup
+
+# Cities DB options
+cities_db: plugins/cities.db
+cities_db_table: cities
+cities_select_limit: 5
+
+# Forex update given in minutes
+forex_update_secs: 60
+forex_base: USD
+
+[rate]
+module: CryptoCoinCharts
+callback: CryptoCoinCharts
+currencies_csv: plugins/currencyCodes.csv
+default_currency: USD
+
+[quotes]
+module: Quotes
+callback: Quotes
+fortune_off: yes
+
+[urlutils]
+module: URLUtils
+callback: URLUtils
+youtube: no
+
+#[timezone]
+#module: Lookup
+#callback: Lookup
+
+

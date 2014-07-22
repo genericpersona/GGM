@@ -1,0 +1,6 @@
+2014-03-24 02:09:23-0400 [-] Log opened.
+2014-03-24 02:09:25-0400 [-] Starting factory <gilbertgrapesmom.GilbertGrapesMomFactory instance at 0x2baba70>
+2014-03-24 02:09:26-0400 [Uninitialized] Connection made
+2014-03-24 02:09:28-0400 [GilbertGrapesMom (TLSMemoryBIOProtocol),client] Authenticated the bot
+2014-03-24 02:09:34-0400 [GilbertGrapesMom (TLSMemoryBIOProtocol),client] Joined #genericpersona
+2014-03-24 02:09:56-0400 [GilbertGrapesMom (TLSMemoryBIOProtocol),client] [genericpersona!~generic@unaffiliated/genericpersona@#genericpersona]: ?city --country-code US "San Jose"

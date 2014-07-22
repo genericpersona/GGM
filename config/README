@@ -1,0 +1,24 @@
+gilbertgrapesmom Config Files
+-----------------------------
+
+A Python formatted config file is essential to the plugin based nature of
+gilbertgrape's mom.  When the bot first runs it parses the config file to get
+basic information about IRC login credentials and servers along with all the 
+plugins that the bot will use.
+
+The sections of the config file are as follows:
+
+main
+-----
+  - The only required section
+  - Has the most basic information
+
+<name of plugin>
+-----------------
+  - Each plugin should have its own config section
+  - The current required directives are:
+    -- module (name of module to import to find the plugin)
+    -- callback (name of method used to parse commands for the bot)
+
+An example config file is found in ggm.conf.clean.
+

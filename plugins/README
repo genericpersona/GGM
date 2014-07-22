@@ -1,0 +1,10 @@
+gilbertgrapesmom Plugins
+------------------------
+
+Plugins are class definitions which inherit from the Plugin base class found in
+the Plugin module.  Read the docstrings for that class to see which methods you
+must override.
+
+Essentially, plugins are groups of commands that the bot will respond to.
+
+
